@@ -1,0 +1,22 @@
+{
+  "name": "js_design_patterns",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgummalla79/js_design_patterns.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sgummalla79/js_design_patterns/issues"
+  },
+  "homepage": "https://github.com/sgummalla79/js_design_patterns#readme",
+  "dependencies": {
+    "express": "^4.16.1"
+  }
+}
