@@ -5,7 +5,7 @@
                 "type": "node",
                 "request": "launch",
                 "name": "Launch Program",
-                "program": "${workspaceRoot}/Observer/main.js"
+                "program": "${workspaceRoot}/Command/taskRepo.js"
             }
         ]
     }
