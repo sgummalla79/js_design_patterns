@@ -21,8 +21,13 @@ var urgentTask = function(name, priority){
 
 urgentTask.prototype = Object.create(Task.prototype);
 
+urgentTask.prototype.notify = function(){
+    console.log('notifying important people');
+}
+
 urgentTask.prototype.save = function(){
-    console.log("Urgent Tasks Save");
+    this.notify();
+    console.log('do special stuff before saving..');
     Task.prototype.save.call(this);
 }
 
@@ -32,6 +37,5 @@ myTask.complete();
 myTask.save();
 
 var myUrgentTask = new urgentTask('Urgent Task', 1);
-console.log(myUrgentTask);
 myUrgentTask.complete();
 myUrgentTask.save();
