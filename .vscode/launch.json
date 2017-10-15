@@ -5,7 +5,7 @@
                 "type": "node",
                 "request": "launch",
                 "name": "Launch Program",
-                "program": "${workspaceRoot}/FlyWeight/main.js"
+                "program": "${workspaceRoot}/Observer/main.js"
             }
         ]
     }
